@@ -1,0 +1,56 @@
+.description {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: $primaryBgColor;
+}
+
+.description__wrap {
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.title {
+  margin-bottom: 30px;
+
+  font-size: 19px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 44px;
+  }
+}
+.description__wrap--left {
+  margin-bottom: 20px;
+}
+.description__img {
+  border-radius: 15px;
+  box-shadow: 11px 10px 20px #85d556;
+  border: 1px solid #90d858;
+
+  @media screen and (min-width: $tablet) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.description__wrap--right {
+  @media screen and (min-width: $desktop) {
+    width: 50%;
+  }
+}
+.description__text {
+  font-size: 15px;
+  line-height: 1.9;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 17px;
+  }
+}
